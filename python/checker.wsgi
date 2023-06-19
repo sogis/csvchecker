@@ -53,6 +53,7 @@ def application(environ, start_response):
         csvchecker = csv_checker.CsvChecker(cur)
         arr_message = csvchecker.check('csv', '/tmp/' + file_name + '.itf')
         del csvchecker 
+        os.remove('/tmp/' + file_name + '.itf')
         message = u'<ol>'
         for myerror in arr_message:
             message += u'<li>' + myerror[0].decode('utf-8') + u'</li>'
