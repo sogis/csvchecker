@@ -851,11 +851,11 @@ Die Datei muss Tabulatorgetrennt mit einem (\")-Zeichen als Escape-Sequenz sein.
                     bol_ok = False
                     str_wrong = str_id
 
-                if str(line['wasserhhgr']).strip() in ['f','s'] and int(line['pflngr']) < 70:
+                if str(line['wasserhhgr']).strip() in ['f','s','k'] and int(line['pflngr']) < 70:
                     bol_ok = False
                     str_wrong = str_id
                 
-                if str(line['wasserhhgr']).strip() in ['b','k'] and (int(line['pflngr']) < 70 or int(line['pflngr']) > 99):
+                if str(line['wasserhhgr']).strip() in ['b'] and (int(line['pflngr']) < 70 or int(line['pflngr']) > 99):
                     bol_ok = False
                     str_wrong = str_id
                     
