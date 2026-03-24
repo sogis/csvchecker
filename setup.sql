@@ -173,7 +173,7 @@ INSERT INTO kartiererin VALUES (786, 'Danner/Flury', 'ed/sfl');
 INSERT INTO kartiererin VALUES (787, 'Erzer', 'ne');
 INSERT INTO kartiererin VALUES (788, 'Erzer/Flury', 'ne/slf');
 INSERT INTO kartiererin VALUES (789, 'Erzer/Muheim', 'ne/lm');
-INSERT INTO kartiererin VALUES (790, 'Erzer/Muhelm/Flury', 'ne/lm/sfl');
+INSERT INTO kartiererin VALUES (790, 'Erzer/Muheim/Flury', 'ne/lm/sfl');
 INSERT INTO kartiererin VALUES (791, 'Flury/Ramseier', 'slf/lr');
 INSERT INTO kartiererin VALUES (792, 'Flury/Erzer', 'slf/ne');
 INSERT INTO kartiererin VALUES (793, 'Flury/Muheim', 'slf/lm');
